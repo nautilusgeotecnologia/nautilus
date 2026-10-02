@@ -2,26 +2,50 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog | Nautilus Geotecnologia — Artigos sobre Engenharia e Geotecnologia</title>
-    <meta name="description" content="Artigos sobre georreferenciamento, regularização de imóveis, topografia, engenharia ambiental e consultoria em Cananéia e Vale do Ribeira.">
-    <meta name="keywords" content="blog geotecnologia, artigos engenharia, georreferenciamento, regularização de imóveis, topografia, Cananéia">
+   <meta http-equiv="X-Content-Type-Options" content="nosniff">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://script.google.com https://www.googletagmanager.com https://www.google.com https://www.google-analytics.com https://region1.google-analytics.com https://static.cloudflareinsights.com; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://www.google-analytics.com https://www.google.com https://region1.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; frame-src https://www.google.com;">
 
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Blog | Nautilus Geotecnologia">
-    <meta property="og:description" content="Artigos sobre engenharia, georreferenciamento, regularização de imóveis e consultoria ambiental.">
-    <meta property="og:url" content="https://www.nautilusgeotecnologia.com.br/blog/">
-    <meta property="og:image" content="https://www.nautilusgeotecnologia.com.br/logo.png">
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Blog | Nautilus Geotecnologia">
+<meta property="og:description" content="Artigos sobre engenharia, georreferenciamento, regularização de imóveis e consultoria ambiental.">
+<meta property="og:url" content="https://www.nautilusgeotecnologia.com.br/blog/">
+<meta property="og:image" content="https://www.nautilusgeotecnologia.com.br/logo.png">
 
-    <!-- Canonical -->
-    <link rel="canonical" href="https://www.nautilusgeotecnologia.com.br/blog/">
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blog | Nautilus Geotecnologia">
+<meta name="twitter:description" content="Artigos sobre engenharia, georreferenciamento, regularização de imóveis e consultoria ambiental.">
+<meta name="twitter:image" content="https://www.nautilusgeotecnologia.com.br/logo.png">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../logo.png">
+<!-- Canonical -->
+<link rel="canonical" href="https://www.nautilusgeotecnologia.com.br/blog/">
 
-    <!-- Estilos -->
-    <link rel="stylesheet" href="style.css">
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="/logo.png">
+
+<!-- Fontes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+<!-- GA4 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JGMLBPJZ9C"></script>
+<script>
+    window['ga-disable-G-JGMLBPJZ9C'] = true;
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    if (localStorage.getItem('lgpd_aceito') === 'true') {
+        window['ga-disable-G-JGMLBPJZ9C'] = false;
+        gtag('config', 'G-JGMLBPJZ9C');
+    }
+</script>
+
+<!-- Estilos -->
+<link rel="stylesheet" href="/blog/style.css">
 
     <!-- GA4 (MESMO CÓDIGO DO INDEX.HTML PRINCIPAL) -->
     <!-- Copiar exatamente o mesmo script do GA4 que está no index.html -->
@@ -124,7 +148,18 @@
             <p><a href="../politica-de-privacidade.html">Política de Privacidade</a> | <a href="../politica-de-cookies.html">Política de Cookies</a></p>
         </div>
     </footer>
+a href="https://wa.me/5513996047831?text=Ol%C3%A1!%20Vim%20pelo%20site." class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Fale conosco no WhatsApp">💬</a>
 
+<div class="lgpd-banner" id="lgpdBanner">
+    <div class="lgpd-content">
+        <p>Utilizamos cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa <a href="/politica-de-cookies.html" style="color:var(--bege-creme); text-decoration:underline;">Política de Cookies</a> e <a href="/politica-de-privacidade.html" style="color:var(--bege-creme); text-decoration:underline;">Política de Privacidade</a>.</p>
+        <div class="lgpd-buttons">
+            <button class="lgpd-btn aceitar" onclick="aceitarLGPD()">Aceitar</button>
+            <button class="lgpd-btn rejeitar" onclick="rejeitarLGPD()">Rejeitar</button>
+            <button class="lgpd-btn personalizar" onclick="personalizarLGPD()">Personalizar</button>
+        </div>
+    </div>
+</div>
     <!-- Script do menu mobile (MESMO DO INDEX.HTML PRINCIPAL) -->
     <script>
         // Copiar exatamente o mesmo script do menu mobile do index.html
