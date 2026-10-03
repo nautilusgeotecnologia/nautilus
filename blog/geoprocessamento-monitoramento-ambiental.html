@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- SEO DO ARTIGO -->
-    <title>Geoprocessamento Aplicado ao Monitoramento Ambiental | Nautilus</title>
-    <meta name="description" content="Saiba como o geoprocessamento é usado no monitoramento ambiental em Cananéia: manguezais, áreas de preservação, sensoriamento remoto e análise espacial por engenheiros especializados.">
+    <title>Geoprocessamento Aplicado ao Monitoramento Ambiental | Nautilus Geotecnologia</title>
+    <meta name="description" content="Saiba como o geoprocessamento é usado no monitoramento ambiental em Cananéia: manguezais, áreas de preservação, sensoriamento remoto e análise espacial.">
     <meta name="keywords" content="geoprocessamento, monitoramento ambiental, sensoriamento remoto, manguezais, Cananéia, análise espacial, SIG, QGIS">
+    
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net https://script.google.com https://www.googletagmanager.com https://www.google.com https://www.google-analytics.com https://region1.google-analytics.com https://static.cloudflareinsights.com; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://www.google-analytics.com https://www.google.com https://region1.google-analytics.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; frame-src https://www.google.com;">
 
-    <!-- Open Graph -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="Geoprocessamento Aplicado ao Monitoramento Ambiental">
     <meta property="og:description" content="Como o geoprocessamento é usado no monitoramento ambiental em Cananéia: manguezais, áreas de preservação e análise espacial.">
     <meta property="og:url" content="https://www.nautilusgeotecnologia.com.br/blog/geoprocessamento-monitoramento-ambiental.html">
     <meta property="og:image" content="https://www.nautilusgeotecnologia.com.br/logo.png">
-    <meta property="article:published_time" content="2026-10-02">
-    <meta property="article:author" content="Nautilus Geotecnologia">
 
-    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Geoprocessamento Aplicado ao Monitoramento Ambiental">
     <meta name="twitter:description" content="Como o geoprocessamento é usado no monitoramento ambiental em Cananéia.">
 
-    <!-- Canonical -->
     <link rel="canonical" href="https://www.nautilusgeotecnologia.com.br/blog/geoprocessamento-monitoramento-ambiental.html">
+    <link rel="icon" type="image/png" href="/logo.png">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="../logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <!-- Structured Data (Article Schema) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGMLBPJZ9C"></script>
+    <script>
+        window['ga-disable-G-JGMLBPJZ9C'] = true;
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        if (localStorage.getItem('lgpd_aceito') === 'true') {
+            window['ga-disable-G-JGMLBPJZ9C'] = false;
+            gtag('config', 'G-JGMLBPJZ9C');
+        }
+    </script>
+
+    <link rel="stylesheet" href="style.css?v=20261002">
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -38,10 +49,8 @@
         "description": "Saiba como o geoprocessamento é usado no monitoramento ambiental em Cananéia: manguezais, áreas de preservação, sensoriamento remoto e análise espacial.",
         "image": "https://www.nautilusgeotecnologia.com.br/logo.png",
         "author": {
-            "@type": "Person",
-            "name": "Marcio",
-            "jobTitle": "Engenheiro",
-            "url": "https://www.nautilusgeotecnologia.com.br"
+            "@type": "Organization",
+            "name": "Nautilus Geotecnologia"
         },
         "publisher": {
             "@type": "Organization",
@@ -52,329 +61,324 @@
             }
         },
         "datePublished": "2026-10-02",
-        "dateModified": "2026-10-02",
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.nautilusgeotecnologia.com.br/blog/geoprocessamento-monitoramento-ambiental.html"
-        }
+        "dateModified": "2026-10-02"
     }
     </script>
-
-    <!-- Estilos -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JGMLBPJZ9C"></script>
-    <script>
-        window['ga-disable-G-JGMLBPJZ9C'] = true;
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        
-        if (localStorage.getItem('lgpd_aceito') === 'true') {
-            window['ga-disable-G-JGMLBPJZ9C'] = false;
-            gtag('config', 'G-JGMLBPJZ9C');
-        }
-    </script>
-
 </head>
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <div class="header-container">
-            <a href="../index.html" class="logo">
-                <img src="../logo.png" alt="Nautilus Geotecnologia — Empresa de Engenharia" width="70" height="70">
-                <div>
-                    <span class="logo-name">NAUTILUS</span>
-                    <span class="logo-subtitle">ENGENHARIA EM GEOTECNOLOGIA</span>
-                </div>
-            </a>
-            <nav>
-                <ul class="nav-menu">
-                    <li><a href="../index.html">Início</a></li>
-                    <li><a href="../index.html#servicos">Serviços</a></li>
-                    <li><a href="../index.html#sobre">Sobre</a></li>
-                    <li><a href="index.html" class="active">Blog</a></li>
-                    <li><a href="../index.html#contato">Contato</a></li>
-                </ul>
-                <button class="mobile-menu-btn" aria-label="Abrir menu">☰</button>
-            </nav>
+<header>
+    <div class="container header-content">
+        <div class="header-brand">
+            <div class="logo">
+                <a href="/"><img src="/logo.png" alt="Nautilus Geotecnologia - Empresa de Engenharia"></a>
+            </div>
+            <div class="header-brand-text">
+                <span class="header-brand-name">NAUTILUS</span>
+                <span class="header-brand-sub">ENGENHARIA E GEOTECNOLOGIAS</span>
+            </div>
+        </div>
+        <div class="header-crea">CREA-SP 2941307</div>
+        <a href="https://wa.me/5513996047831?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Nautilus." class="btn-header" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+    </div>
+</header>
+
+<article class="article-container">
+
+    <header class="article-header">
+        <h1>Geoprocessamento Aplicado ao Monitoramento Ambiental</h1>
+        <div class="article-meta">
+            <time datetime="2026-10-02">📅 02 de outubro de 2026</time>
+            <span>⏱️ Leitura: 7 minutos</span>
+            <span>👤 Por Nautilus Geotecnologia</span>
         </div>
     </header>
 
-    <!-- CONTEÚDO DO ARTIGO -->
-    <article class="article-container">
+    <div class="article-content">
 
-        <!-- Cabeçalho do artigo -->
-        <header class="article-header">
-            <h1>Geoprocessamento Aplicado ao Monitoramento Ambiental</h1>
-            <div class="article-meta">
-                <span>📅 02 de outubro de 2026</span>
-                <span>⏱️ 7 minutos de leitura</span>
-                <span>👷 Marcio — Engenheiro CREA-SP 2941307</span>
-            </div>
-        </header>
+        <p><strong>Cananéia possui um dos ecossistemas mais ricos do Brasil:</strong> manguezais, restingas, Mata Atlântica e estuários. Para proteger essas áreas e garantir o uso sustentável dos recursos naturais, o geoprocessamento é uma ferramenta essencial. Neste artigo, explicamos como o geoprocessamento é aplicado no monitoramento ambiental e por que ele é fundamental para proprietários rurais, órgãos ambientais e empresas que atuam na região.</p>
 
-        <!-- Conteúdo -->
-        <div class="article-content">
+        <h2>O que é geoprocessamento?</h2>
 
-            <p>Cananéia possui um dos ecossistemas mais ricos do Brasil: manguezais, restingas, Mata Atlântica e estuários. Para proteger essas áreas e garantir o uso sustentável dos recursos naturais, o <strong>geoprocessamento</strong> é uma ferramenta essencial. Neste artigo, explicamos como o geoprocessamento é aplicado no monitoramento ambiental e por que ele é fundamental para proprietários rurais, órgãos ambientais e empresas que atuam na região.</p>
+        <p>Geoprocessamento é o conjunto de técnicas e tecnologias utilizadas para coletar, armazenar, processar e analisar dados georreferenciados. Ele envolve o uso de Sistemas de Informação Geográfica (SIG), sensoriamento remoto (imagens de satélite e drones) e GPS de alta precisão para criar mapas temáticos, analisar mudanças no território e apoiar a tomada de decisões.</p>
 
-            <h2>O que é geoprocessamento?</h2>
+        <p>Na prática, o geoprocessamento permite:</p>
 
-            <p>Geoprocessamento é o conjunto de técnicas e tecnologias utilizadas para coletar, armazenar, processar e analisar dados georreferenciados. Ele envolve o uso de Sistemas de Informação Geográfica (SIG), sensoriamento remoto (imagens de satélite e drones) e GPS de alta precisão para criar mapas temáticos, analisar mudanças no território e apoiar a tomada de decisões.</p>
+        <ul>
+            <li>Mapear áreas de preservação ambiental</li>
+            <li>Monitorar mudanças na cobertura vegetal</li>
+            <li>Analisar o uso do solo em propriedades rurais</li>
+            <li>Identificar áreas de risco (erosão, inundação, deslizamento)</li>
+            <li>Apoiar o licenciamento ambiental e a regularização de imóveis</li>
+        </ul>
 
-            <p>Na prática, o geoprocessamento permite:</p>
+        <h2>Aplicações do geoprocessamento em Cananéia</h2>
 
-            <ul>
-                <li>Mapear áreas de preservação ambiental</li>
-                <li>Monitorar mudanças na cobertura vegetal</li>
-                <li>Analisar o uso do solo em propriedades rurais</li>
-                <li>Identificar áreas de risco (erosão, inundação, deslizamento)</li>
-                <li>Apoiar o licenciamento ambiental e a regularização de imóveis</li>
-            </ul>
+        <h3>1. Monitoramento de manguezais</h3>
+        <p>Cananéia possui uma das maiores extensões de manguezais do Brasil. O geoprocessamento é usado para:</p>
+        <ul>
+            <li>Mapear a extensão dos manguezais</li>
+            <li>Monitorar mudanças na cobertura de mangue ao longo do tempo</li>
+            <li>Identificar áreas degradadas que precisam de recuperação</li>
+            <li>Apoiar estudos de impacto ambiental</li>
+        </ul>
 
-            <h2>Aplicações do geoprocessamento em Cananéia</h2>
+        <h3>2. Análise de uso do solo em propriedades rurais</h3>
+        <p>Para proprietários rurais, o geoprocessamento é essencial para:</p>
+        <ul>
+            <li>Delimitar áreas de preservação permanente (APP)</li>
+            <li>Identificar áreas de reserva legal</li>
+            <li>Analisar o uso atual do solo (pastagem, agricultura, floresta)</li>
+            <li>Apoiar o cadastro ambiental rural (CAR)</li>
+            <li>Elaborar planos de recuperação de áreas degradadas (PRAD)</li>
+        </ul>
 
-            <h3>1. Monitoramento de manguezais</h3>
-            <p>Cananéia possui uma das maiores extensões de manguezais do Brasil. O geoprocessamento é usado para:</p>
-            <ul>
-                <li>Mapear a extensão dos manguezais</li>
-                <li>Monitorar mudanças na cobertura de mangue ao longo do tempo</li>
-                <li>Identificar áreas degradadas que precisam de recuperação</li>
-                <li>Apoiar estudos de impacto ambiental</li>
-            </ul>
+        <h3>3. Monitoramento de áreas de preservação</h3>
+        <p>Órgãos ambientais como CETESB, IBAMA e Fundação Florestal utilizam geoprocessamento para:</p>
+        <ul>
+            <li>Monitorar unidades de conservação</li>
+            <li>Identificar desmatamentos ilegais</li>
+            <li>Apoiar a fiscalização ambiental</li>
+            <li>Elaborar planos de manejo</li>
+        </ul>
 
-            <h3>2. Análise de uso do solo em propriedades rurais</h3>
-            <p>Para proprietários rurais, o geoprocessamento é essencial para:</p>
-            <ul>
-                <li>Delimitar áreas de preservação permanente (APP)</li>
-                <li>Identificar áreas de reserva legal</li>
-                <li>Analisar o uso atual do solo (pastagem, agricultura, floresta)</li>
-                <li>Apoiar o cadastro ambiental rural (CAR)</li>
-                <li>Elaborar planos de recuperação de áreas degradadas (PRAD)</li>
-            </ul>
+        <h3>4. Análise de risco ambiental</h3>
+        <p>O geoprocessamento também é usado para identificar áreas de risco, como:</p>
+        <ul>
+            <li>Áreas sujeitas a inundação (planícies de inundação)</li>
+            <li>Áreas de erosão costeira</li>
+            <li>Áreas de deslizamento (encostas íngremes)</li>
+            <li>Áreas contaminadas (passivos ambientais)</li>
+        </ul>
 
-            <h3>3. Monitoramento de áreas de preservação</h3>
-            <p>Órgãos ambientais como CETESB, IBAMA e Fundação Florestal utilizam geoprocessamento para:</p>
-            <ul>
-                <li>Monitorar unidades de conservação</li>
-                <li>Identificar desmatamentos ilegais</li>
-                <li>Apoiar a fiscalização ambiental</li>
-                <li>Elaborar planos de manejo</li>
-            </ul>
+        <h2>Ferramentas utilizadas no geoprocessamento</h2>
 
-            <h3>4. Análise de risco ambiental</h3>
-            <p>O geoprocessamento também é usado para identificar áreas de risco, como:</p>
-            <ul>
-                <li>Áreas sujeitas a inundação (planícies de inundação)</li>
-                <li>Áreas de erosão costeira</li>
-                <li>Áreas de deslizamento (encostas íngremes)</li>
-                <li>Áreas contaminadas (passivos ambientais)</li>
-            </ul>
+        <p>Para realizar o geoprocessamento, são utilizadas diversas ferramentas e tecnologias:</p>
 
-            <h2>Ferramentas utilizadas no geoprocessamento</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Ferramenta</th>
+                    <th>Descrição</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>QGIS</td>
+                    <td>Software livre de SIG (Sistema de Informação Geográfica)</td>
+                </tr>
+                <tr>
+                    <td>ArcGIS</td>
+                    <td>Software proprietário de SIG (mais utilizado por órgãos públicos)</td>
+                </tr>
+                <tr>
+                    <td>Google Earth Engine</td>
+                    <td>Plataforma de análise de imagens de satélite</td>
+                </tr>
+                <tr>
+                    <td>Drones</td>
+                    <td>Aeronaves não tripuladas para captura de imagens aéreas</td>
+                </tr>
+                <tr>
+                    <td>GPS de alta precisão</td>
+                    <td>Equipamento GNSS para coleta de coordenadas georreferenciadas</td>
+                </tr>
+                <tr>
+                    <td>Imagens de satélite</td>
+                    <td>Sentinel-2, Landsat, Planet (para análise de cobertura vegetal)</td>
+                </tr>
+            </tbody>
+        </table>
 
-            <p>Para realizar o geoprocessamento, são utilizadas diversas ferramentas e tecnologias:</p>
+        <h2>Como o geoprocessamento ajuda na regularização ambiental?</h2>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Ferramenta</th>
-                        <th>Descrição</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>QGIS</td>
-                        <td>Software livre de SIG (Sistema de Informação Geográfica)</td>
-                    </tr>
-                    <tr>
-                        <td>ArcGIS</td>
-                        <td>Software proprietário de SIG (mais utilizado por órgãos públicos)</td>
-                    </tr>
-                    <tr>
-                        <td>Google Earth Engine</td>
-                        <td>Plataforma de análise de imagens de satélite</td>
-                    </tr>
-                    <tr>
-                        <td>Drones</td>
-                        <td>Aeronaves não tripuladas para captura de imagens aéreas</td>
-                    </tr>
-                    <tr>
-                        <td>GPS de alta precisão</td>
-                        <td>Equipamento GNSS para coleta de coordenadas georreferenciadas</td>
-                    </tr>
-                    <tr>
-                        <td>Imagens de satélite</td>
-                        <td>Sentinel-2, Landsat, Planet (para análise de cobertura vegetal)</td>
-                    </tr>
-                </tbody>
-            </table>
+        <p>Para proprietários rurais em Cananéia e Vale do Ribeira, o geoprocessamento é fundamental para:</p>
 
-            <h2>Como o geoprocessamento ajuda na regularização ambiental?</h2>
+        <h3>Cadastro Ambiental Rural (CAR)</h3>
+        <p>O CAR é um registro obrigatório para todos os imóveis rurais. O geoprocessamento é usado para:</p>
+        <ul>
+            <li>Delimitar os limites do imóvel</li>
+            <li>Identificar áreas de preservação permanente (APP)</li>
+            <li>Identificar áreas de reserva legal</li>
+            <li>Mapear o uso atual do solo</li>
+            <li>Elaborar o memorial descritivo e a planta georreferenciada</li>
+        </ul>
 
-            <p>Para proprietários rurais em Cananéia e Vale do Ribeira, o geoprocessamento é fundamental para:</p>
+        <h3>Programa de Regularização Ambiental (PRA)</h3>
+        <p>Se o imóvel possui passivos ambientais (áreas degradadas ou desmatadas ilegalmente), o PRA é o programa para regularizar a situação. O geoprocessamento é usado para:</p>
+        <ul>
+            <li>Identificar as áreas que precisam ser recuperadas</li>
+            <li>Elaborar o plano de recuperação de áreas degradadas (PRAD)</li>
+            <li>Monitorar a evolução da recuperação ao longo do tempo</li>
+        </ul>
 
-            <h3>Cadastro Ambiental Rural (CAR)</h3>
-            <p>O CAR é um registro obrigatório para todos os imóveis rurais. O geoprocessamento é usado para:</p>
-            <ul>
-                <li>Delimitar os limites do imóvel</li>
-                <li>Identificar áreas de preservação permanente (APP)</li>
-                <li>Identificar áreas de reserva legal</li>
-                <li>Mapear o uso atual do solo</li>
-                <li>Elaborar o memorial descritivo e a planta georreferenciada</li>
-            </ul>
+        <h3>Licenciamento ambiental</h3>
+        <p>Para atividades que exigem licenciamento ambiental (como aquicultura, turismo rural, extração de recursos naturais), o geoprocessamento é usado para:</p>
+        <ul>
+            <li>Elaborar estudos de impacto ambiental (EIA/RIMA)</li>
+            <li>Mapear áreas de influência do empreendimento</li>
+            <li>Analisar alternativas locacionais</li>
+            <li>Monitorar os impactos durante a operação</li>
+        </ul>
 
-            <h3>Programa de Regularização Ambiental (PRA)</h3>
-            <p>Se o imóvel possui passivos ambientais (áreas degradadas ou desmatadas ilegalmente), o PRA é o programa para regularizar a situação. O geoprocessamento é usado para:</p>
-            <ul>
-                <li>Identificar as áreas que precisam ser recuperadas</li>
-                <li>Elaborar o plano de recuperação de áreas degradadas (PRAD)</li>
-                <li>Monitorar a evolução da recuperação ao longo do tempo</li>
-            </ul>
+        <h2>Quanto custa um serviço de geoprocessamento?</h2>
 
-            <h3>Licenciamento ambiental</h3>
-            <p>Para atividades que exigem licenciamento ambiental (como aquicultura, turismo rural, extração de recursos naturais), o geoprocessamento é usado para:</p>
-            <ul>
-                <li>Elaborar estudos de impacto ambiental (EIA/RIMA)</li>
-                <li>Mapear áreas de influência do empreendimento</li>
-                <li>Analisar alternativas locacionais</li>
-                <li>Monitorar os impactos durante a operação</li>
-            </ul>
+        <p>O custo varia conforme a complexidade do projeto e a área a ser analisada. Aqui estão os valores referenciais para Cananéia e região:</p>
 
-            <h2>Quanto custa um serviço de geoprocessamento?</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Serviço</th>
+                    <th>Preço estimado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Análise de uso do solo (até 50 hectares)</td>
+                    <td>R$ 1.500 - R$ 3.000</td>
+                </tr>
+                <tr>
+                    <td>Mapeamento de áreas de preservação</td>
+                    <td>R$ 2.000 - R$ 5.000</td>
+                </tr>
+                <tr>
+                    <td>Elaboração de PRAD (Plano de Recuperação)</td>
+                    <td>R$ 3.000 - R$ 8.000</td>
+                </tr>
+                <tr>
+                    <td>Monitoramento ambiental (anual)</td>
+                    <td>R$ 5.000 - R$ 15.000</td>
+                </tr>
+                <tr>
+                    <td>Estudo de impacto ambiental (EIA/RIMA)</td>
+                    <td>R$ 15.000 - R$ 50.000</td>
+                </tr>
+            </tbody>
+        </table>
 
-            <p>O custo varia conforme a complexidade do projeto e a área a ser analisada. Aqui estão os valores referenciais para Cananéia e região:</p>
+        <p><em>Valores referenciais para Cananéia e região. Solicite um orçamento personalizado.</em></p>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Serviço</th>
-                        <th>Preço estimado</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Análise de uso do solo (até 50 hectares)</td>
-                        <td>R$ 1.500 - R$ 3.000</td>
-                    </tr>
-                    <tr>
-                        <td>Mapeamento de áreas de preservação</td>
-                        <td>R$ 2.000 - R$ 5.000</td>
-                    </tr>
-                    <tr>
-                        <td>Elaboração de PRAD (Plano de Recuperação)</td>
-                        <td>R$ 3.000 - R$ 8.000</td>
-                    </tr>
-                    <tr>
-                        <td>Monitoramento ambiental (anual)</td>
-                        <td>R$ 5.000 - R$ 15.000</td>
-                    </tr>
-                    <tr>
-                        <td>Estudo de impacto ambiental (EIA/RIMA)</td>
-                        <td>R$ 15.000 - R$ 50.000</td>
-                    </tr>
-                </tbody>
-            </table>
+        <h2>Dúvidas frequentes sobre geoprocessamento</h2>
 
-            <p><em>Valores referenciais para Cananéia e região. Solicite um orçamento personalizado.</em></p>
+        <h3>Quem pode realizar serviços de geoprocessamento?</h3>
+        <p>Profissionais registrados no CREA com formação em engenharia cartográfica, engenharia ambiental, geografia ou áreas afins. O profissional deve ter experiência em SIG, sensoriamento remoto e análise espacial.</p>
 
-            <h2>Dúvidas frequentes sobre geoprocessamento</h2>
+        <h3>O geoprocessamento substitui o levantamento de campo?</h3>
+        <p>Não. O geoprocessamento complementa o levantamento de campo, mas não substitui. Para validar os dados de satélite, é necessário realizar verificações in loco (trabalho de campo).</p>
 
-            <h3>Quem pode realizar serviços de geoprocessamento?</h3>
-            <p>Profissionais registrados no CREA com formação em engenharia cartográfica, engenharia ambiental, geografia ou áreas afins. O profissional deve ter experiência em SIG, sensoriamento remoto e análise espacial.</p>
+        <h3>Quais imagens de satélite são utilizadas?</h3>
+        <p>As mais comuns são Sentinel-2 (gratuita, resolução de 10 metros), Landsat (gratuita, resolução de 30 metros) e Planet (paga, resolução de 3 metros). Para projetos de alta precisão, utilizamos imagens de drones (resolução centimétrica).</p>
 
-            <h3>O geoprocessamento substitui o levantamento de campo?</h3>
-            <p>Não. O geoprocessamento complementa o levantamento de campo, mas não substitui. Para validar os dados de satélite, é necessário realizar verificações in loco (trabalho de campo).</p>
+        <h3>O geoprocessamento é obrigatório para o CAR?</h3>
+        <p>Sim. O CAR exige a apresentação de planta georreferenciada e memorial descritivo, que são elaborados com o uso de geoprocessamento. Sem esses documentos, o CAR não pode ser cadastrado.</p>
 
-            <h3>Quais imagens de satélite são utilizadas?</h3>
-            <p>As mais comuns são Sentinel-2 (gratuita, resolução de 10 metros), Landsat (gratuita, resolução de 30 metros) e Planet (paga, resolução de 3 metros). Para projetos de alta precisão, utilizamos imagens de drones (resolução centimétrica).</p>
+        <h3>Como o geoprocessamento ajuda no monitoramento de manguezais?</h3>
+        <p>O geoprocessamento permite mapear a extensão dos manguezais, identificar áreas degradadas e monitorar mudanças ao longo do tempo. Com imagens de satélite multitemporais, é possível analisar a evolução da cobertura de mangue e identificar pressões antrópicas (desmatamento, ocupação irregular).</p>
 
-            <h3>O geoprocessamento é obrigatório para o CAR?</h3>
-            <p>Sim. O CAR exige a apresentação de planta georreferenciada e memorial descritivo, que são elaborados com o uso de geoprocessamento. Sem esses documentos, o CAR não pode ser cadastrado.</p>
+        <h2>Conclusão</h2>
 
-            <h3>Como o geoprocessamento ajuda no monitoramento de manguezais?</h3>
-            <p>O geoprocessamento permite mapear a extensão dos manguezais, identificar áreas degradadas e monitorar mudanças ao longo do tempo. Com imagens de satélite multitemporais, é possível analisar a evolução da cobertura de mangue e identificar pressões antrópicas (desmatamento, ocupação irregular).</p>
+        <p>O geoprocessamento é uma ferramenta essencial para o monitoramento ambiental em Cananéia e região. Ele permite mapear, analisar e proteger ecossistemas importantes como manguezais, restingas e Mata Atlântica, além de apoiar a regularização ambiental de propriedades rurais.</p>
 
-        </div>
+        <p>Se você precisa de serviços de geoprocessamento em Cananéia, Iguape, Ilha Comprida, Pariquera-Açu, Registro ou qualquer outra cidade do Vale do Ribeira, conte com a Nautilus Geotecnologia. Somos uma empresa de engenharia registrada no CREA-SP (2941307) com experiência em geoprocessamento e monitoramento ambiental.</p>
 
-        <!-- CTA FINAL -->
         <div class="article-cta">
             <h3>Precisa de geoprocessamento em Cananéia ou Vale do Ribeira?</h3>
-            <p>A Nautilus Geotecnologia é especialista em geoprocessamento e monitoramento ambiental. Nossa equipe possui experiência em SIG, sensoriamento remoto e análise espacial.</p>
-            <a href="../index.html#contato" class="btn">Solicite um orçamento gratuito →</a>
+            <p>Entre em contato agora e receba um orçamento sem compromisso. Atendemos em Cananéia e toda a região do Vale do Ribeira.</p>
+            <a href="https://wa.me/5513996047831?text=Ol%C3%A1!%20Vi%20o%20artigo%20sobre%20geoprocessamento%20e%20gostaria%20de%20um%20or%C3%A7amento." class="btn" target="_blank" rel="noopener noreferrer">💬 Falar no WhatsApp</a>
         </div>
 
-        <!-- AUTOR -->
         <div class="article-author">
-            <img src="../logo.png" alt="Marcio — Engenheiro Nautilus Geotecnologia">
+            <img src="/logo.png" alt="Nautilus Geotecnologia">
             <div class="article-author-info">
-                <strong>Marcio — Engenheiro</strong>
-                CREA-SP 2941307 | Nautilus Geotecnologia<br>
-                Especialista em geoprocessamento, monitoramento ambiental e regularização de imóveis em Cananéia e Vale do Ribeira.
+                <strong>Nautilus Geotecnologia</strong>
+                Empresa de engenharia registrada no CREA-SP 2941307. Especializada em georreferenciamento, topografia e regularização de imóveis em Cananéia e Vale do Ribeira.
             </div>
         </div>
 
-        <!-- LINKS INTERNOS -->
-        <div style="margin: 40px 0; padding: 20px; background: #f5f5f5; border-radius: 8px;">
-            <h3 style="margin-bottom: 15px;">Leia também</h3>
-            <ul style="list-style: none; padding: 0;">
-                <li style="margin-bottom: 10px;">
-                    <a href="index.html" style="color: #0a3d62; text-decoration: none;">← Voltar para o Blog</a>
-                </li>
-                <li style="margin-bottom: 10px;">
-                    <a href="o-que-e-georreferenciamento.html" style="color: #0a3d62; text-decoration: none;">O que é georreferenciamento e por que seu imóvel precisa</a>
-                </li>
-                <li style="margin-bottom: 10px;">
-                    <a href="regularizacao-nautica-embarcacoes.html" style="color: #0a3d62; text-decoration: none;">Regularização Náutica de Embarcações: Guia Completo</a>
-                </li>
-                <li style="margin-bottom: 10px;">
-                    <a href="../index.html#servicos" style="color: #0a3d62; text-decoration: none;">Conheça nossos serviços de engenharia →</a>
-                </li>
-            </ul>
-        </div>
+        <p style="text-align: center; margin-top: 40px;">
+            <a href="/blog/" style="color: var(--verde-oliva); font-weight: 600;">← Voltar para o Blog</a>
+        </p>
 
-    </article>
+    </div>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="footer-container">
-            <div class="footer-col">
-                <h4>Nautilus Geotecnologia</h4>
-                <p>Empresa de engenharia registrada no CREA-SP. Soluções em georreferenciamento, topografia e regularização de imóveis.</p>
-                <p><small>CNPJ 68.922.684/0001-12</small></p>
-            </div>
-            <div class="footer-col">
-                <h4>Serviços de Engenharia</h4>
-                <ul>
-                    <li><a href="../index.html#servicos">Georreferenciamento</a></li>
-                    <li><a href="../index.html#servicos">Topografia</a></li>
-                    <li><a href="../index.html#servicos">Regularização de Imóveis</a></li>
-                    <li><a href="../index.html#servicos">Consultoria Ambiental</a></li>
-                    <li><a href="../index.html#servicos">Geoprocessamento</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Contato</h4>
-                <p>Rua Antonio Paulino de Almeida, 1031<br>Acarau — Cananéia/SP<br>CEP 11990-000</p>
-                <p><a href="tel:+5513996047831">(13) 99604-7831</a></p>
-                <p><a href="mailto:contato@nautilusgeotecnologia.com.br">contato@nautilusgeotecnologia.com.br</a></p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Nautilus Geotecnologia. Todos os direitos reservados.</p>
-            <p><a href="../politica-de-privacidade.html">Política de Privacidade</a> | <a href="../politica-de-cookies.html">Política de Cookies</a></p>
-        </div>
-    </footer>
+</article>
 
-    <!-- Script do menu mobile -->
-    <script>
-        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
-            document.querySelector('.nav-menu').classList.toggle('active');
-        });
-    </script>
+<footer>
+    <div class="footer-content">
+        <div class="footer-col">
+            <h4>Nautilus Geotecnologia</h4>
+            <p>Empresa de engenharia registrada no CREA-SP. Soluções em geotecnologia, topografia e regularização em Cananéia/SP e região do Vale do Ribeira.</p>
+            <p style="margin-top:10px;"><strong>CREA-SP: 2941307</strong></p>
+        </div>
+        <div class="footer-col">
+            <h4>Serviços de Engenharia</h4>
+            <a href="/#servicos">Georreferenciamento</a>
+            <a href="/#servicos">Topografia e Geodésia</a>
+            <a href="/#servicos">Regularização de Imóveis</a>
+            <a href="/#servicos">Consultoria Ambiental</a>
+            <a href="/#servicos">Geoprocessamento</a>
+            <a href="/#servicos">Regularização Náutica</a>
+        </div>
+        <div class="footer-col">
+            <h4>Contato</h4>
+            <a href="https://wa.me/5513996047831" target="_blank" rel="noopener noreferrer">📱 (13) 99604-7831</a>
+            <a href="mailto:contato@nautilusgeotecnologia.com.br">✉️ contato@nautilusgeotecnologia.com.br</a>
+            <p>📍 Rua Antonio Paulino de Almeida, 1031 - Acarau - Cananéia/SP</p>
+            <a href="https://g.page/r/CWhlUBIz4V2uEBM/review" target="_blank" rel="noopener noreferrer" style="margin-top:10px;">⭐ Avalie-nos no Google</a>
+        </div>
+        <div class="footer-col">
+            <h4>Legal</h4>
+            <a href="/politica-de-privacidade.html">Política de Privacidade</a>
+            <a href="/politica-de-cookies.html">Política de Cookies</a>
+            <a href="/blog/">Blog</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Nautilus Geotecnologia Soluções Náuticas e Ambientais LTDA. Todos os direitos reservados. | CREA-SP 2941307 | CNPJ 68.922.684/0001-12</p>
+    </div>
+</footer>
+
+<a href="https://wa.me/5513996047831?text=Ol%C3%A1!%20Vim%20pelo%20site." class="whatsapp-float" target="_blank" rel="noopener noreferrer" title="Fale conosco no WhatsApp">💬</a>
+
+<div class="lgpd-banner" id="lgpdBanner">
+    <div class="lgpd-content">
+        <p>Utilizamos cookies para melhorar sua experiência. Ao continuar navegando, você concorda com nossa <a href="/politica-de-cookies.html" style="color:var(--bege-creme); text-decoration:underline;">Política de Cookies</a> e <a href="/politica-de-privacidade.html" style="color:var(--bege-creme); text-decoration:underline;">Política de Privacidade</a>.</p>
+        <div class="lgpd-buttons">
+            <button class="lgpd-btn aceitar" onclick="aceitarLGPD()">Aceitar</button>
+            <button class="lgpd-btn rejeitar" onclick="rejeitarLGPD()">Rejeitar</button>
+            <button class="lgpd-btn personalizar" onclick="personalizarLGPD()">Personalizar</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function mostrarLGPD() {
+        if (!localStorage.getItem('lgpd_aceito') && !localStorage.getItem('lgpd_rejeitado')) {
+            document.getElementById('lgpdBanner').classList.add('show');
+        }
+    }
+    function ativarAnalytics() {
+        window['ga-disable-G-JGMLBPJZ9C'] = false;
+        gtag('config', 'G-JGMLBPJZ9C');
+    }
+    function aceitarLGPD() {
+        localStorage.setItem('lgpd_aceito', 'true');
+        ativarAnalytics();
+        document.getElementById('lgpdBanner').classList.remove('show');
+    }
+    function rejeitarLGPD() {
+        localStorage.setItem('lgpd_rejeitado', 'true');
+        document.getElementById('lgpdBanner').classList.remove('show');
+    }
+    function personalizarLGPD() {
+        window.location.href = '/politica-de-cookies.html';
+    }
+    window.addEventListener('load', () => {
+        mostrarLGPD();
+        if (localStorage.getItem('lgpd_aceito') === 'true') ativarAnalytics();
+    });
+</script>
 
 </body>
 </html>
+
