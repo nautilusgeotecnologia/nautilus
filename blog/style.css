@@ -433,15 +433,20 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
 
 .btn-blog {
     display: inline-block;
-    color: var(--verde-oliva);
+    background: var(--verde-oliva);
+    color: var(--branco);
+    padding: 12px 24px;
+    border-radius: 5px;
     font-weight: 600;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: background 0.3s, transform 0.3s;
 }
 
 .btn-blog:hover {
-    color: var(--verde-oliva-hover);
+    background: var(--verde-oliva-hover);
+    transform: translateY(-2px);
 }
+
 
 .blog-cta {
     text-align: center;
