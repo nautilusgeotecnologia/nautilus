@@ -476,7 +476,16 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
     .logo img { height: 40px; }
     .btn-header { padding: 8px 14px; font-size: 0.85rem; }
     .header-content { padding: 0 15px; }
+        .btn-header:last-child {
+        font-size: 0 !important;
+        padding: 8px 12px !important;
+    }
     
+    .btn-header:last-child::before {
+        content: "💬";
+        font-size: 1.2rem;
+    }
+
     /* Blog Hero */
     .blog-hero { margin-top: 70px; padding: 40px 15px; }
     .blog-hero h1 { font-size: 1.8rem; }
