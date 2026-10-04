@@ -464,19 +464,34 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
 }
 
 /* ============================================
-   RESPONSIVO - MOBILE
+   RESPONSIVO - MOBILE (PADRONIZADO COM PÁGINA PRINCIPAL)
    ============================================ */
 
 @media (max-width: 768px) {
-    /* Header */
+    /* Header - PADRONIZADO COM PÁGINA PRINCIPAL */
     .header-crea { display: none; }
-    .header-brand-name { font-size: 1rem; }
-    .header-brand-sub { font-size: 0.65rem; }
     header { padding: 10px 0; }
-    .logo img { height: 40px; }
-    .btn-header { padding: 8px 14px; font-size: 0.85rem; }
-    .header-content { padding: 0 15px; }
-        .btn-header:last-child {
+    .header-content { 
+        padding: 0 15px;
+        gap: 8px;
+        justify-content: space-between;
+    }
+    .header-brand { gap: 10px; }
+    .header-brand-name { font-size: 0.9rem !important; }
+    .header-brand-sub { 
+        font-size: 0.6rem !important;
+        letter-spacing: 1px !important;
+    }
+    .logo img { height: 35px !important; }
+    
+    /* Botões do header - PADRONIZADO COM PÁGINA PRINCIPAL */
+    .btn-header {
+        padding: 5px 8px !important;
+        font-size: 0.7rem !important;
+        gap: 4px !important;
+    }
+    
+    .btn-header:last-child {
         font-size: 0 !important;
         padding: 8px 12px !important;
     }
@@ -485,7 +500,7 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
         content: "💬";
         font-size: 1.2rem;
     }
-
+    
     /* Blog Hero */
     .blog-hero { margin-top: 70px; padding: 40px 15px; }
     .blog-hero h1 { font-size: 1.8rem; }
