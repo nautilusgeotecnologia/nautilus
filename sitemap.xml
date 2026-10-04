@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-  <url>
-    <loc>https://www.nautilusgeotecnologia.com.br/blog/reurb-regularizacao-fundiaria-cananeia.html</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-<url>
-    <loc>https://www.nautilusgeotecnologia.com.br/blog/regularizacao-nautica-embarcacoes.html</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://www.nautilusgeotecnologia.com.br/blog/geoprocessamento-monitoramento-ambiental.html</loc>
-    <lastmod>2026-10-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
+<urlset xmlns="...">           ← urlset abre IMEDIATAMENTE após declaração XML
+  <url>homepage...</url>
+  <url>blog...</url>
+  <url>reurb...</url>
+  <url>nautica...</url>
+  <url>geoprocessamento...</url>
+  <url>georreferenciamento...</url>
+  <url>privacidade...</url>
+  <url>cookies...</url>
+</urlset>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    
     <!-- Página principal -->
     <url>
         <loc>https://www.nautilusgeotecnologia.com.br/</loc>
