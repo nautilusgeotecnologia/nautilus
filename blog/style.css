@@ -464,12 +464,11 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
 }
 
 /* ============================================
-   RESPONSIVO - MOBILE
+   RESPONSIVO - MOBILE (PADRONIZADO COM PÁGINA PRINCIPAL)
    ============================================ */
 
 @media (max-width: 768px) {
-    h1 { font-size: 1.8rem; }
-    h2 { font-size: 1.5rem; }
+    /* Header - PADRONIZADO COM PÁGINA PRINCIPAL */
     .header-crea { display: none; }
     header { padding: 10px 0; }
     .header-content { 
@@ -485,6 +484,7 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
     }
     .logo img { height: 35px !important; }
     
+    /* Botões do header - PADRONIZADO COM PÁGINA PRINCIPAL */
     .btn-header {
         padding: 5px 8px !important;
         font-size: 0.7rem !important;
@@ -512,9 +512,9 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
     .blog-card h2 { font-size: 1.3rem; }
     .blog-card p { font-size: 0.95rem; }
     
-    /* Article Container - CORRIGIDO: margin-top aumentado para não ser coberto pelo header */
+    /* Article Container */
     .article-container { 
-        margin-top: 130px !important;
+        margin-top: 80px; 
         padding: 0 15px;
         width: 100%;
     }
@@ -533,14 +533,14 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
     }
     
     /* Article Content */
-    .article-content { font-size: 1rem; line-height: 1.7; }
+    .article-content { font-size: 1rem; line-height: 1.7; padding-top: 20px; }
     .article-content h2 { font-size: 1.3rem; margin-top: 25px; margin-bottom: 15px; }
     .article-content h3 { font-size: 1.15rem; margin-top: 20px; margin-bottom: 12px; }
     .article-content p { margin-bottom: 15px; font-size: 0.95rem; }
     .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 15px; }
     .article-content li { margin-bottom: 8px; font-size: 0.95rem; }
     
-    /* Tabelas */
+    /* Tabelas - RESPONSIVAS COM SCROLL */
     .article-content table { 
         display: block;
         overflow-x: auto;
@@ -611,6 +611,7 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
 }
 
 @media (max-width: 480px) {
+    /* Telas muito pequenas */
     .article-container { padding: 0 12px; }
     .article-header h1 { font-size: 1.3rem; }
     .article-content h2 { font-size: 1.2rem; }
@@ -623,3 +624,4 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
     .article-cta { padding: 20px 12px; }
     .article-cta h3 { font-size: 1.1rem; }
 }
+
