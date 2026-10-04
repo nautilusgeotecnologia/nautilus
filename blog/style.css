@@ -512,9 +512,9 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
     .blog-card h2 { font-size: 1.3rem; }
     .blog-card p { font-size: 0.95rem; }
     
-    /* Article Container */
+    /* Article Container - CORRIGIDO: margin-top aumentado para não ser coberto pelo header */
     .article-container { 
-        margin-top: 80px; 
+        margin-top: 130px !important;
         padding: 0 15px;
         width: 100%;
     }
