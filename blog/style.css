@@ -15,7 +15,7 @@
     --cinza-medio: #6C757D;
 }
 
-html { overflow-x: hidden; scroll-behavior: smooth; }
+html { overflow-x: hidden; }
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -157,8 +157,8 @@ header.main-header {
 
 .article-container { 
     max-width: 800px; 
-    margin: 0 auto; 
-    padding: 140px 20px 40px;
+    margin: 0 auto;
+    padding: 130px 20px 40px;
     width: 100%;
 }
 
@@ -468,8 +468,6 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
    ============================================ */
 
 @media (max-width: 768px) {
-    h1 { font-size: 1.8rem; }
-    h2 { font-size: 1.5rem; }
     .header-crea { display: none; }
     header.main-header { padding: 8px 0; }
     .header-content { 
@@ -501,29 +499,23 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
         font-size: 1.2rem;
     }
     
-    /* Blog Hero */
-    .blog-hero { margin-top: 60px; padding: 40px 15px; }
+    .blog-hero { margin-top: 70px; padding: 40px 15px; }
     .blog-hero h1 { font-size: 1.8rem; }
     .blog-hero p { font-size: 1rem; }
     
-    /* Blog List */
     .blog-list { padding: 0 15px; margin: 30px auto; }
     .blog-card { padding: 20px; margin-bottom: 20px; }
     .blog-card h2 { font-size: 1.3rem; }
     .blog-card p { font-size: 0.95rem; }
     
-    /* Article Container - PADDING-TOP de 100px para compensar header fixo */
     .article-container { 
-        padding: 100px 15px 30px !important;
-        margin-top: 0 !important;
+        padding: 90px 15px 30px !important;
         width: 100%;
     }
     
-    /* Article Header */
     .article-header { margin-bottom: 25px; padding-bottom: 15px; }
     .article-header h1 { font-size: 1.5rem; line-height: 1.4; }
     
-    /* Article Meta */
     .article-meta { 
         flex-direction: column; 
         gap: 8px;
@@ -532,7 +524,6 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
         font-size: 0.85rem;
     }
     
-    /* Article Content */
     .article-content { font-size: 1rem; line-height: 1.7; }
     .article-content h2 { font-size: 1.3rem; margin-top: 25px; margin-bottom: 15px; }
     .article-content h3 { font-size: 1.15rem; margin-top: 20px; margin-bottom: 12px; }
@@ -540,7 +531,6 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
     .article-content ul, .article-content ol { padding-left: 20px; margin-bottom: 15px; }
     .article-content li { margin-bottom: 8px; font-size: 0.95rem; }
     
-    /* Tabelas */
     .article-content table { 
         display: block;
         overflow-x: auto;
@@ -557,7 +547,6 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
         font-size: 0.85rem;
     }
     
-    /* Blockquote */
     .article-content blockquote { 
         padding: 12px 15px; 
         margin: 15px 0;
@@ -565,13 +554,11 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
         border-left-width: 3px;
     }
     
-    /* Article CTA */
     .article-cta { padding: 25px 15px; margin: 25px 0; }
     .article-cta h3 { font-size: 1.2rem; margin-bottom: 12px; }
     .article-cta p { font-size: 0.9rem; margin-bottom: 15px; }
     .article-cta .btn { padding: 10px 25px; font-size: 0.9rem; }
     
-    /* Article Author */
     .article-author { 
         flex-direction: column; 
         text-align: center;
@@ -581,24 +568,20 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
     .article-author img { width: 50px; height: 50px; }
     .article-author-info { font-size: 0.85rem; }
     
-    /* Footer */
     .footer-content { grid-template-columns: 1fr; gap: 20px; }
     .footer-col h4 { font-size: 1.1rem; }
     .footer-col a { font-size: 0.9rem; }
     .footer-bottom { font-size: 0.8rem; padding: 15px 10px; }
     footer { padding: 30px 15px 15px; }
     
-    /* WhatsApp Float */
     .whatsapp-float { width: 50px; height: 50px; bottom: 15px; right: 15px; font-size: 1.5rem; }
     
-    /* LGPD Banner */
     .lgpd-banner { padding: 15px; }
     .lgpd-content { flex-direction: column; text-align: center; gap: 15px; }
     .lgpd-content p { font-size: 0.8rem; }
     .lgpd-buttons { justify-content: center; width: 100%; }
     .lgpd-btn { padding: 8px 16px; font-size: 0.8rem; }
     
-    /* Blog Section Home */
     .blog-section { padding: 40px 15px; }
     .blog-grid { grid-template-columns: 1fr; gap: 15px; }
     .blog-card-home { margin-bottom: 15px; }
@@ -611,7 +594,7 @@ footer { background: var(--azul-marinho); color: var(--branco); padding: 40px 20
 }
 
 @media (max-width: 480px) {
-    .article-container { padding: 90px 12px 25px !important; }
+    .article-container { padding: 80px 12px 25px !important; }
     .article-header h1 { font-size: 1.3rem; }
     .article-content h2 { font-size: 1.2rem; }
     .article-content h3 { font-size: 1.05rem; }
